@@ -1,0 +1,46 @@
+
+/*Começo do carrossel */
+#main{
+    grid-area: main;
+    border-radius: 0.8em;
+    max-width: 500px;
+    height: 400px; 
+  
+}
+
+img {
+    box-shadow: 0 1px 2px #0003;
+    width: 50%;
+  }
+
+.swiper {
+    height: 600px;
+    
+    
+  }
+  
+.swiper-slide {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  @media (max-width: 768px) {
+    /* Estilos para telas menores que 768px de largura */
+  }
+  
+  @media (min-width: 450px) {
+    .swiper {
+      height: 300px;
+      width: 350px;
+  
+    }
+  }
+
+.obra{
+  text-align: center;
+  margin: 40px;
+}
+
