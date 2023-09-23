@@ -151,7 +151,7 @@
         <div class="col-md-4">
             <div class="conta">
                 <div class="image">
-                    <img src="<?=URL?>/public/img/yana.jpg" alt="Imagem 2" class="image" style="width: 360px;">
+                    <img src="<?=URL?>/public/img/yana.jpg" alt="Imagem 2" class="image" style="width: 300px;">
                 </div>
                 <div class="overlay">
                     <div class="text">Yaguarê Yamã</div>
