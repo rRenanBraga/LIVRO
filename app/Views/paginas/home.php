@@ -79,7 +79,7 @@
                 </div>
                 <div class="overlay">
                     <div class="text">Ailton Krenak</div>
-                    <div class="subtext"><p></p></div>
+                    <div class="subtext"><p>Povo: KRENAK</p></div>
                 </div>
             </div>
         </div>
@@ -91,6 +91,8 @@
                 </div>
                 <div class="overlay">
                     <div class="text">Daniel Munduruku</div>
+                    <div class="subtext"><p>Povo: MUNDURUKU</p></div>
+
                 </div>
             </div>
         </div>
@@ -102,6 +104,8 @@
                 </div>
                 <div class="overlay">
                     <div class="text">Eliane Potiguara</div>
+                    <div class="subtext"><p>Povo: POTIGUARA</p></div>
+
                 </div>
             </div>
         </div>
@@ -113,6 +117,8 @@
                 </div>
                 <div class="overlay">
                     <div class="text">Cristiano Wapichana</div>
+                    <div class="subtext"><p>Povo: WAPICHANA</p></div>
+
                 </div>
             </div>
         </div>
@@ -123,6 +129,8 @@
                 </div>
                 <div class="overlay">
                     <div class="text">Davi Kopenawa</div>
+                    <div class="subtext"><p>Povo: YONOMAMI</p></div>
+
                 </div>
             </div>
         </div>
@@ -134,6 +142,8 @@
                 </div>
                 <div class="overlay">
                     <div class="text">Aline Pachamama</div>
+                    <div class="subtext"><p>Povo: PURI/p></div>
+
                 </div>
             </div>
         </div>
@@ -145,6 +155,8 @@
                 </div>
                 <div class="overlay">
                     <div class="text">Yaguarê Yamã</div>
+                    <div class="subtext"><p>Povo: MARAGUÁ</p></div>
+
                 </div>
                 
             </div>
