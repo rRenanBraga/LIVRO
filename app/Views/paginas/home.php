@@ -142,7 +142,7 @@
                 </div>
                 <div class="overlay">
                     <div class="text">Aline Pachamama</div>
-                    <div class="subtext"><p>Povo: PURI/p></div>
+                    <div class="subtext"><p>Povo: PURI</p></div>
 
                 </div>
             </div>
