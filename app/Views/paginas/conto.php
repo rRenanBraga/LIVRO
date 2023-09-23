@@ -152,13 +152,6 @@
 		
 		</div>
 
-		<div class="container-botao">
-		<div class="livro-ler text-center">LER</div>
-		<div class="livro">
-            <img src="<?=URL?>/public/img/O Karaíba - Uma História do pré-Brasil - Daniel Munduruku.jpeg" alt="Capa do livro O Karaíba - Uma História do pré-Brasil">
-			<div class="livro-titulo">O Karaíba - Uma História do pré-Brasil</div>
-			<div class="livro-autor">Daniel Munduruku</div>
-		</div>
 		
 		</div>
 
