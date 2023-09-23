@@ -79,13 +79,13 @@
 .linha {
     
     width: 100%;
-    border-top: 1px solid #ffffff;
+    border-top: 1px solid #000000;
 }
 
 
 .texto {
     padding: 0 15px;
-    color: #ffffff;
+    color: #000000;
     
 }
 
@@ -94,7 +94,7 @@
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
-  color: #ffffff;
+  color: #000000;
 }
 
 

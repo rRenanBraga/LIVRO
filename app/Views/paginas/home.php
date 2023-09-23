@@ -54,7 +54,7 @@
 
           <!-- LINHA DE DESTQUE DE AUTORES -->
 
-        <div class="autor-background" style="background-image: url('<?=URL?>/public/img/fundo.jpg'); background-size: cover; background-position: center;  padding: 50px;">
+       
         
         <div class="destaque-legenda">
             
@@ -66,6 +66,8 @@
         <div class="frase-destaque" style="margin-bottom: 70px;">
              VEJA ALGUNS ESCRITOS INDÍGENAS FABULOSOS
         </div>
+
+        <div class="autor-background" style="background-image: url('<?=URL?>/public/img/fundo.jpg'); background-size: cover; background-position: center;  padding: 50px;">
 
         <!-- PARTE DOS AUTORES -->
 
