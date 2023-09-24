@@ -37,7 +37,7 @@
         </form>   
 </div> 
         <div class="nome">
-            <h5>MARÃNTI</h5>
+        <img src="<?=URL?>/public/img/gif.gif" alt="LOGO">
         </div>
 
 

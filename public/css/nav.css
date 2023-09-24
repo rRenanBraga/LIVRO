@@ -40,6 +40,8 @@ nav {
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
   background: #5E6A40;
   height: 12vh;
+  width: 100%;
+  margin: 0 auto;
  
 
 }
@@ -146,7 +148,7 @@ main{
 
 .middle-items a {
   color: rgb(0, 0, 0); /* Cor dos links */
-  margin: 0 30px; /* Espaçamento entre os links */
+  margin: 0 50px; /* Espaçamento entre os links */
 
 }
 
@@ -155,14 +157,12 @@ main{
 }
 
 
-.nome{
-  margin-right: 60px;  
+.nome img{
+  margin-right:100px; 
+  width: 220px; /* Defina o tamanho desejado em pixels ou outras unidades */
+  height: auto; 
 }
 
-.nome h5{
-  font-size: 40px;
-  font-family:fantasy;
-}
 
 
 
@@ -197,7 +197,7 @@ main{
     display: flex;
     justify-content: space-between; /* Aligns content to the right */
     margin-left: auto;
-    right: -270%;
+    right: -340%;
   }
   
   .form label {
