@@ -1,7 +1,7 @@
 
-@media (max-width: 768px) {
+@media (max-width: 2000px) {
   /* Estilos para telas menores que 768px de largura */
-}
+
 
 * {
   margin: 0;
@@ -295,3 +295,5 @@ main{
     transform: scale(1);
     transition: 0s;
   }
+
+}
