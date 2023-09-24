@@ -70,8 +70,8 @@ main{
   background: #000000;
   margin: 8px;
   transition: 0.3s;
-  right: 40%;
-  margin-right: 170px;
+  right: -60%;
+  margin-right: 240px;
 
 
 }
@@ -138,7 +138,7 @@ main{
 .middle-items {
   flex-grow: 2;
   text-align: center;
-  margin-right: 500px; 
+  margin-right: 450px; 
   display: flex;
  
   
@@ -146,7 +146,7 @@ main{
 
 .middle-items a {
   color: rgb(0, 0, 0); /* Cor dos links */
-  margin: 0 80px; /* Espaçamento entre os links */
+  margin: 0 30px; /* Espaçamento entre os links */
 
 }
 
@@ -156,7 +156,7 @@ main{
 
 
 .nome{
-  margin-right: 90px;  
+  margin-right: 60px;  
 }
 
 .nome h5{
@@ -197,7 +197,7 @@ main{
     display: flex;
     justify-content: space-between; /* Aligns content to the right */
     margin-left: auto;
-    right: -350%;
+    right: -270%;
   }
   
   .form label {
