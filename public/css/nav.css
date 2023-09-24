@@ -163,7 +163,10 @@ main{
   height: auto; 
 }
 
-
+.social-link {
+  margin-right: 20px; /* Adiciona distância entre os ícones */
+  font-size: 34px; /* Ajusta o tamanho dos ícones */
+}
 
 
 
