@@ -35,6 +35,13 @@ class Paginas extends Controller{
           $this->view('paginas/historia', $dados);
       }
 
+      public function descricao(){
+        $dados = ['titulo'=>'',
+        'descricao'=>''
+       ];
+        $this->view('paginas/descricao', $dados);
+    }
+
 }//fim da classe
 
 
