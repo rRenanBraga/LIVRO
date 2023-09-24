@@ -122,7 +122,7 @@
 		<div class="livro-ler text-center">LER</div>
 		<div class="livro">
 		<div class=" mb-4">
-		<a href="<?=URL?>/paginas/descricao" target="_blank">
+		<a href="<?=URL?>/paginas/descricao" data-tooltip="tooltip">
    			 <img src="<?=URL?>/public/img/O Pássarro Encantado - Eliane Potiguara.jpeg" alt="Capa do livro O Pássarro Encantado">
 		</a>
 			<div class="livro-titulo">O Pássarro Encantado</div>
