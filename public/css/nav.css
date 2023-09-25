@@ -158,8 +158,8 @@ main{
 
 
 .nome img{
-  margin-right:100px; 
-  width: 220px; /* Defina o tamanho desejado em pixels ou outras unidades */
+  margin-right:50px; 
+  width: 180px;/* Defina o tamanho desejado em pixels ou outras unidades */
   height: auto; 
 }
 
@@ -200,7 +200,7 @@ main{
     display: flex;
     justify-content: space-between; /* Aligns content to the right */
     margin-left: auto;
-    right: -340%;
+    right: -320%;
   }
   
   .form label {
