@@ -25,6 +25,7 @@ body {
 
 .book-details {
     flex-grow: 1;
+    padding: 25px;
 
 }
 

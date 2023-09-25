@@ -11,7 +11,7 @@
 <body>
     <div class="container-descricao">
         <div class="book-info">
-            <img src="<?=URL?>/public/img/O Pássarro Encantado - Eliane Potiguara.jpeg" alt="Capa do livro O Pássarro Encantado">
+            <img src="<?=URL?>/public/img/O Pássarro Encantado - Eliane Potiguara.jpeg" alt="Capa do livro O Pássarro Encantado" style="width: 35%";>
             <div class="book-details">
                 <h2 style="font-family: fantasy">O Pássarro Encantado</h2>
                 <p>Autor(a): Eliane Potiguara</p>
