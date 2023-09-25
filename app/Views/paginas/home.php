@@ -101,13 +101,14 @@
 
         <div class="col-md-4">
             <div class="conta">
+            <a href="<?=URL?>/paginas/descricao_autor" data-tooltip="tooltip">
                 <div class="image">
                     <img src="<?=URL?>/public/img/EEliane.jpg" alt="Imagem 1" class="image">
                 </div>
                 <div class="overlay">
                     <div class="text">Eliane Potiguara</div>
                     <div class="subtext"><p>Povo: POTIGUARA</p></div>
-
+                    </a>
                 </div>
             </div>
         </div>

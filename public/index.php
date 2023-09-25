@@ -77,6 +77,7 @@ echo $db->resultado()->titulo;
     <link rel="stylesheet" href="<?=URL?>/public/css/nav.css">   
     <link rel="stylesheet" href="<?=URL?>/public/css/style.css"> 
     <link rel="stylesheet" href="<?=URL?>/public/css/conto.css"> 
+    <link rel="stylesheet" href="<?=URL?>/public/descricao.css"> 
 
 
    
