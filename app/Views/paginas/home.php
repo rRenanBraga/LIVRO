@@ -12,6 +12,20 @@
 
            <!-- <p><b>Um pouco sobre literatura indigena.</b></p> -->
 
+
+           <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+         new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
+
+
+
            <div class="aviso text-center">
            <img src="<?=URL?>/public\img\aviso.png" alt="AVISO" style="width: 600px; height: 700px; margin-bottom: 70px;">
            </div>
