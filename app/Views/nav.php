@@ -45,6 +45,7 @@
           <div class="middle-items">
                 <a href="<?=URL?>/app/Views/paginas/home">HOME</a>
                 <a href="<?=URL?>/paginas/sobre" data-tooltip="tooltip" title="Sobre nós">SOBRE</a>
+            
             </div>
             </div>
        

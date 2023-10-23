@@ -1,2 +1,8 @@
-<h1><?= $dados['titulo'] ?></h1>
-<h2><?= $dados['descricao'] ?></h2>
+<?php
+$controller = new Buscar();
+
+if(isset($_POST['termo_busca'])) {
+    $termo = $_POST['termo_busca'];
+    $controller->buscarLivros($termo);
+}
+?>
