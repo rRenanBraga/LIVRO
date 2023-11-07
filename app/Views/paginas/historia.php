@@ -104,20 +104,22 @@
     
         </style>
     
-    
         <h1>LIVROS EM DESTAQUES</h1>
     
         <div class="livro-container">
+            
             <div class="container-botao">
              <div class="livro-ler text-center">LER</div>
+             <?php foreach($livros as $livro): ?>
             <div class="livro">
-            
-                <img src="<?=URL?>/public/img/surgiu.png" alt="COMO SURGIU: MITOS INDÍGENAS BRASILEIROS">
-                <div class="livro-titulo">COMO SURGIU: MITOS INDÍGENAS BRASILEIROS</div>
-                <div class="livro-autor">DANIEL MUNDURUKU</div>
-         
+            <div class=" mb-4">
+                        <h3><?= $livro->obra_imagem?></h3>
+                        <h3><?= $livro->obra_titulo ?></h3>
+                        <h3><?= $livro->autor_nome ?></h3>
+                        </div>
             </div>
-
+            <?php endforeach; ?>
+         
             </div>
     
             <div class="container-botao">

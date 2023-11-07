@@ -5,14 +5,16 @@ class Controller {
     public function getLivrosPorGenero($genero) {
         $model = new ModelObra();
         $livros = $model->getLivrosPorGenero($genero);
-
-        // Carregue a view com os dados
-        include 'view.php';
+        var_dump($livros)
+        return $livros;
     }
 }
 
 // Uso do controlador
 $controller = new Controller();
-$genero = "conto"; // Substitua pelo gênero desejado
-$controller->getLivrosPorGenero($genero);
+$genero = "Historia"; // Substitua pelo gênero desejado
+$livros = $controller->getLivrosPorGenero($genero);
+
+// Carregue a view com os dados
+include 'view.php';
 ?>
