@@ -4,7 +4,7 @@ class ModelObra {
 
     public function __construct() {
         // Conexão com o banco de dados
-        $this->db = new PDO("mysql:host=localhost;dbname=bd_biblioteca", "root", "");
+        $this->db = new PDO("mysql:host=localhost;dbname=bd_biblioteca", "root", "renan");
     }
 
     public function getLivrosPorGenero($genero) {

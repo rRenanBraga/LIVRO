@@ -111,11 +111,12 @@
             <!-- CHAMANDO AS INFORMAÇÕES DO BANCO DE DADOS (LIVRO DO GÊNERO HISTORIA) -->
             <div class="container-botao">
              <div class="livro-ler text-center">LER</div>
-             <?php $livros = array();
- foreach  ($livros as $livro) : ?>
+
+            <?php $livros = array();
+            foreach  ($livros as $livro) : ?>
             <div class="livro">
             <div class=" mb-4">
-             <?= $livro->obra_imagem?>
+            <?= $livro->obra_imagem?>
             <div class="livro-titulo"><?= $livro->obra_titulo ?></div>
             <div class="livro-autor"><?= $livro->autor_nome ?></div>
                         </div>
