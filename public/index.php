@@ -5,7 +5,17 @@ include './../app/Libraries/Controller.php';
 include './../app/Libraries/Database.php';
 
 
-$db = new Database;
+$db = new Database();
+
+/*if ($db->isConnected()) {
+    echo "Conectado ao banco de dados!";
+} else {
+    echo "Erro ao conectar ao banco de dados.";
+
+
+}
+*/
+
 /*
 $usuarioId = 10;
 $titulo = 'Titulo do post';

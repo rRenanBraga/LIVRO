@@ -8,6 +8,10 @@ class Database {
     private $dbh;
     private $stmt;
 
+    public function isConnected() {
+        return $this->dbh !== null;
+    }
+
     public function __construct(){
         $dsn = 'mysql:host='.$this->host.';port='.$this->porta.';dbname='.$this->banco;
         $opcoes = [

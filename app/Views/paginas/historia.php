@@ -112,7 +112,7 @@
             <div class="container-botao">
              <div class="livro-ler text-center">LER</div>
 
-            <?php $livros = array();
+            <?php 
             foreach  ($livros as $livro) : ?>
             <div class="livro">
             <div class=" mb-4">

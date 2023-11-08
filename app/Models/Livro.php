@@ -1,7 +1,7 @@
 <?php
 class Livro {
     public function buscarLivros($termo) {
-        $conn = new mysqli('localhost', 'root', '', 'bd_biblioteca');
+        $conn = new mysqli('localhost', 'root', 'renan', 'bd_biblioteca');
         if ($conn->connect_error) {
             die("Erro na conexão: " . $conn->connect_error);
         }
