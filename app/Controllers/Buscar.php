@@ -1,7 +1,7 @@
 <?php
 require_once('models/Livro.php');
 
-class BuscaController {
+class Buscar extends Controller{
     public function buscarLivros($termo) {
         $livroModel = new Livro();
         $resultados = $livroModel->buscarLivros($termo);

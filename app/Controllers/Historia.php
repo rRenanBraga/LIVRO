@@ -1,11 +1,11 @@
 <?php
 require 'modelobra.php';
 
-class Controller {
+class Historia extends Controller {
     public function getLivrosPorGenero($genero) {
         $model = new ModelObra();
         $livros = $model->getLivrosPorGenero($genero);
-        var_dump($livros)
+        var_dump($livros);
         return $livros;
     }
 }

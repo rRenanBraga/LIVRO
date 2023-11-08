@@ -107,15 +107,17 @@
         <h1>LIVROS EM DESTAQUES</h1>
     
         <div class="livro-container">
-            
+
+            <!-- CHAMANDO AS INFORMAÇÕES DO BANCO DE DADOS (LIVRO DO GÊNERO HISTORIA) -->
             <div class="container-botao">
              <div class="livro-ler text-center">LER</div>
-             <?php foreach($livros as $livro): ?>
+             <?php $livros = array();
+ foreach  ($livros as $livro) : ?>
             <div class="livro">
             <div class=" mb-4">
-                        <h3><?= $livro->obra_imagem?></h3>
-                        <h3><?= $livro->obra_titulo ?></h3>
-                        <h3><?= $livro->autor_nome ?></h3>
+             <?= $livro->obra_imagem?>
+            <div class="livro-titulo"><?= $livro->obra_titulo ?></div>
+            <div class="livro-autor"><?= $livro->autor_nome ?></div>
                         </div>
             </div>
             <?php endforeach; ?>
